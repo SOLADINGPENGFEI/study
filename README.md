@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="280" src="/avatar.png" alt="logo">
+  <img width="280" src="./src/.vuepress/public/avatar.png" alt="logo">
 </p>
 
 ## Target
