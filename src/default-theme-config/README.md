@@ -17,7 +17,7 @@ sidebar: auto
 ``` yaml
 ---
 home: true
-heroImage: /hero.png
+heroImage: ./src/.vuepress/public/avatar.png
 actionText: 起步 →
 actionLink: /guide/
 features:
