@@ -1,12 +1,12 @@
 <p align="center">
-  <img width="280" src="https://avatars1.githubusercontent.com/u/8192412?s=460&v=4" alt="logo">
+  <img width="280" src="/avatar.png" alt="logo">
 </p>
 
 ## Target
 Collect quality content & classical problem
 
 Contributions are welcome!
-
+ 
 ## Edit Content
 ``` bash
 # 启动开发服务
@@ -43,12 +43,6 @@ npm run dev # serves VuePress' own docs with itself
 ``` bash
 npm run build
 ```
-
-## Contribute
-- Send pr to add excellent content
-- Help us improve our content on exist pages  
-
-![improve](/src/.vuepress/public//img/improve.png)
 
 ## License
 
