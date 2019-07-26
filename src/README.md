@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: .vuepress/public/avatar.png
+heroImage: ./src/.vuepress/public/avatar.png
 actionText: Let`s Go →
 actionLink: /zh/standard/Start.html
 sidebarDepth: 2
