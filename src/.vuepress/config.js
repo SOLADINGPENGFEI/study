@@ -8,7 +8,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: '前端知识点总结',
-      description: '任何不能够给你快乐的编程都是耍流氓'
+      description: '永不放弃、一直向前'
     }
   },
   head: [
@@ -83,22 +83,7 @@ module.exports = {
               { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
               { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
             ]
-          },
-          // {
-          //   text: '语言',
-          //   items: [
-          //     { text: 'Chinese', link: '/language/chinese' },
-          //     { text: 'Japanese', link: '/language/japanese' }
-          //   ]
-          // },
-          // {
-          //   text: '配置参考',
-          //   link: '/config/'
-          // },
-          // {
-          //   text: '默认主题配置',
-          //   link: '/default-theme-config/'
-          // }
+          }
         ],
         sidebar: {
           '/guide/': genSidebarConfig('指南'),
