@@ -7,8 +7,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '前端知识点总结',
-      description: '永不放弃、一直向前'
+      title: 'WELCOME TO MY BLOG',
+      description: '这里是我总结的一些简单的前端知识点!!!'
     }
   },
   head: [
