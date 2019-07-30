@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ./src/.vuepress/public/logo.png
+heroImage: /logo.png
 actionText: 快速上手 →
 actionLink: /zh/guide/
 features:
