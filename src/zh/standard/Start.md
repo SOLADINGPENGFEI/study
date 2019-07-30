@@ -10,8 +10,8 @@ sidebarDepth: 2
 - [安装和公钥/私钥的配置](https://www.cnblogs.com/joyho/articles/4062574.html)
 - [常用命令](https://blog.csdn.net/We_chuan/article/details/84523123)
 - 提交之前需要配置全局用户和密码，git commit的时候需要  
+![pull合并问题](/git.jpg)
 ```
-![pull遇到的问题](/git.jpg)
 git config --global user.name "your name"  
 git config --global user.email "you email"
 ```
