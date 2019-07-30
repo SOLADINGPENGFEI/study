@@ -61,7 +61,7 @@ module.exports = {
               { text: '项目优化', link: '/zh/standard/Improve.md'},
               { text: '浏览器缓存', link: '/zh/standard/Cache.md'},
               { text: '单页面应用', link: '/zh/standard/Spa.md'},
-              { text: '防抖截流', link: '/zh/standard/dounce.MD'}
+              { text: '防抖截流', link: '/zh/standard/dounce.md'}
             ],
           },
           {
