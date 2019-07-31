@@ -14,20 +14,20 @@ footer: MIT Licensed | Copyright © 1970-present SOLA
 
 <div class="features">
   <div class="feature">
-    <h2>勤于总结</h2>
-    <p>不断总结过去的知识点。</p>
+    <h2>生活不是用来妥协的</h2>
+    <p>你退缩得越多，能让你喘息的空间就越有限</p>
   </div>
   <div class="feature">
-    <h2>乐于学习</h2>
-    <p>不断接触学习新的知识点。</p>
+    <h2>日子不是用来将就的</h2>
+    <p>你表现得越卑微，一些幸福的东西就会离你越远</p>
   </div>
   <div class="feature">
-    <h2>终于实践</h2>
-    <p>不断在项目中锤炼知识点。</p>
+    <h2>奋斗没有终点</h2>
+    <p>任何时候都是一个起点</p>
   </div>
 </div>
 
-### 起步就像数 1, 2, 3 一样容易
+### 这里是关于博客的起步
 
 ``` bash
 # 安装
