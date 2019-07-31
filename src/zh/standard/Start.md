@@ -16,6 +16,8 @@ sidebarDepth: 2
 git config --global user.name "your name"  
 git config --global user.email "you email"
 ```
+### SVN上传合并快速入口
+- [](https://blog.csdn.net/Ivan_Whisper/article/details/80240755)
 ### Node环境
 - [安装教程](https://www.cnblogs.com/zhouyu2017/p/6485265.html)
 - 可以查看到node版本和npm版本即可

@@ -84,6 +84,13 @@ module.exports = {
               { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
               { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
             ]
+          },{
+            text: '常见问题',
+            items: [
+                { text: '打包压缩工具', link: '/zh/FAQ/webpack.md'},
+                { text: '代码检测工具', link: '/zh/FAQ/detection.md'},
+                { text: 'css预/后处理器', link: '/zh/FAQ/css.md'},
+            ]
           }
         ],
         sidebar: {
