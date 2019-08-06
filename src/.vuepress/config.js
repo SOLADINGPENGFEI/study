@@ -62,7 +62,8 @@ module.exports = {
               { text: '浏览器缓存', link: '/zh/standard/Cache.md'},
               { text: '单页面应用', link: '/zh/standard/Spa.md'},
               { text: '防抖截流', link: '/zh/standard/dounce.md'},
-              { text: '客户端和服务端', link: '/zh/standard/server.md'}
+              { text: '客户端和服务端', link: '/zh/standard/server.md'},
+              { text: '网络安全', link: '/zh/standard/Security.md'}
             ],
           },
           {
@@ -70,7 +71,7 @@ module.exports = {
             items: [
               { text: '面试必看', link: '/zh/interview/index.md'},
               { text: '阿里巴巴', link: '/zh/interview/ali.md'},
-              { text: '龙湖地产', link: '/zh/interview/longhu.md'}
+              // { text: '龙湖地产', link: '/zh/interview/longhu.md'}
             ]
           },
           {
@@ -104,7 +105,7 @@ module.exports = {
             '', 'JSX', 'MVVM', 'Props', 'React生命周期', 'React组件', 'React路由', 'redux', 'redux中间件', '组件通信', '高阶组件'
           ]}],
           '/zh/miniapp/': [{title: '小程序知识点', children: [
-            '', 'WXS', 'wepy组件通信', '小程序事件', '小程序路由', '小程序组件', '小程序组件化'
+            '', 'WXS', 'wepy组件通信', '小程序事件', '小程序路由', '小程序组件', '小程序组件化','小程序的支付'
           ]}]
         }
       }
