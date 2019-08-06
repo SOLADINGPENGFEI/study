@@ -49,7 +49,7 @@ Stylus的安装和LESS在服务器端的安装很相似，先安装Node 。在No
 1
 回车后会自动安装好stylus
 
-# Sass、LESS和Stylus转换成css文件
+### Sass、LESS和Stylus转换成css文件
 1.sass
 
 先在项目中创建一个Sass文件，此例中将其命名为“style.scss”，并且将其放在对应的项目样式中
@@ -96,7 +96,7 @@ $ stylus one.styl two.styl
 
 $ stylus –firebug <path>
 
-# 变量的处理
+### 变量的处理
 Less：变量处理方式–懒加载，所有 Less 变量的计算，都是以这个变量最后一次被定义的值为准。
 Sass的变量处理方式和Stylus相同，变量值输出时根据之前最近的一次定义计算。这其实代表了两种理念：Less 更倾向接近 CSS 的声明式，计算过程弱化调用时机；而 Sass 和 Stylus 更倾向于指令式。
 
@@ -104,14 +104,14 @@ Sass的变量处理方式和Stylus相同，变量值输出时根据之前最近�
 
 优点：stylus和sass这样的处理会不容易受多个第三方库变量名冲突的影响，因为一个变量不能影响在定义它以前的输出样式
 
-## css后处理器
+### css后处理器
 css后处理器是对css进行处理，并最终生成css预处理器，它属于广义上的css预处理器
 举例：css压缩工具（clean-css）,Autoprefixer(以Can I Use上的浏览器支持数据为基础，自动处理兼容问题)
 
-# Autoprefixer:
+### Autoprefixer:
 优点：使用Css语法，容易进行模块化，贴近Css的未来标准
 缺点：逻辑处理能力有限
-# 框架举例
+### 框架举例
 PostCss:是一个基于JS插件的转换样式的工具。PostCSS插件可以像预处理器，它们可以优化和Autoprefix代码；可以添加未来语法；可以添加变量和逻辑；可以提供完整的网格系统；可以提供编码的快捷方式等等
 优点：
 - 多样化的功能插件，创建了一个生态的插件系统
@@ -121,7 +121,7 @@ PostCss:是一个基于JS插件的转换样式的工具。PostCSS插件可以像
 - 可以像普通的CSS一样使用它
 - 不依赖于任何预处理器就具备创建一个库的能力
 - 可以与许多流行工具构建无缝部署
-# css选择器
+### css选择器
 分类：基础选择器、组合选择器、属性选择器、伪类选择器和伪元素等
 - 基础选择器：
     id选择器（#footer），匹配所有id属性等于footer的元素。
@@ -177,7 +177,7 @@ text-align、text-decoration、text-indent、letter-spacing、line-height
 ID选择器：每个元素只能有一个ID，每个页面只能有一个元素使用该ID
 
 class选择器：多个元素可以共用相同类，一个元素可以有多个类
-### 雪碧图原理
+## 雪碧图原理
 原理：把小图标合成一张大图，通过给元素的公共css设置background-image为该合成图，这样每个元素都会以该合成图为背景，而且页面也只加载一张合成图，然后再给每个元素单独微调其background-position。把多个请求合并成一个。
 
 background-position

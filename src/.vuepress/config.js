@@ -61,7 +61,8 @@ module.exports = {
               { text: '项目优化', link: '/zh/standard/Improve.md'},
               { text: '浏览器缓存', link: '/zh/standard/Cache.md'},
               { text: '单页面应用', link: '/zh/standard/Spa.md'},
-              { text: '防抖截流', link: '/zh/standard/dounce.md'}
+              { text: '防抖截流', link: '/zh/standard/dounce.md'},
+              { text: '客户端和服务端', link: '/zh/standard/server.md'}
             ],
           },
           {
@@ -75,7 +76,7 @@ module.exports = {
           {
             text: '知识点笔记',
             items: [
-              { text: '在线思维导图', link: '/zh/interface/Mind.md'},
+              // { text: '在线思维导图', link: '/zh/interface/Mind.md'},
               { text: 'Vue', link: '/zh/vue/' },
               { text: 'React', link: '/zh/react/'},
               { text: '小程序', link: '/zh/miniapp/' },
